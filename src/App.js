@@ -1,13 +1,17 @@
 import './App.css';
 import Background from './components/Background';
+import Cta from './components/Cta';
+import Header from './components/Header';
+import Hero from './components/Hero';
+
 
 function App() {
   return (
   <>
-    <h1 className="text-3xl font-playfair ">
-      Hello world!
-    </h1>
+    <Header />
     <Background />
+    <Hero />
+    <Cta />
     </>
   );
 }
