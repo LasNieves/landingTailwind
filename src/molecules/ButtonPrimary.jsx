@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ButtonPrimary = ({content, estilos}) => {
-  return <button className={` ${estilos} bg-verdeButton text-white text-sm font-raleway uppercase tracking-wider`}>
+  return <button className={` ${estilos} bg-verdeButton text-white text-sm font-raleway uppercase tracking-wider cursor-pointer`}>
     {content}
     </button>;
 };

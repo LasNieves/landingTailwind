@@ -4,7 +4,7 @@ import ButtonPrimary from '../molecules/ButtonPrimary';
 
 const Header = () => {
   return (
-  <header className='w-full py-3'>
+  <header className='w-full py-3 '>
       <div className='flex justify-around gap-x-2.5 sm:gap-x-8 w-[93.75%] mx-auto '>
           <div className='flex justify-center sm:justify-end items-center w-[53.33333%]'>
             <img className='mr-3' src={logo}/> 
